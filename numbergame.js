@@ -6,13 +6,13 @@ function getRandomInt(min, max) {
 
 getRandomInt(1,10)
 
-var choice = prompt("Please pick a number", "Put your number here");
+var choice = prompt("Please pick a number between 1 and 10", "Put your number here");
 
 if(choice > getRandomInt) {
     console.log("too high");
 }
 else if(choice < getRandomInt) {
-    console.log("too low");
+   console.log("too low");
 }
 else {
     console.log("Just right!!");
